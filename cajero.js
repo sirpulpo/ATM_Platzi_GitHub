@@ -1,9 +1,9 @@
 var caja = [];
-caja.push(new Billete(100, 10));
-caja.push(new Billete(50, 10));
-caja.push(new Billete(20, 15));
-caja.push(new Billete(10, 20));
-caja.push(new Billete(5, 20));
+caja.push(new Billete(100, 20));
+caja.push(new Billete(50, 20));
+caja.push(new Billete(20, 25));
+caja.push(new Billete(10, 30));
+caja.push(new Billete(5, 40));
 
 var totalCaja = 0;
 var boton = document.getElementById('extraer');
