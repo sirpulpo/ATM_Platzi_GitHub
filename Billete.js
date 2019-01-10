@@ -6,8 +6,8 @@ var imgBillete = {
   5: "billete5.png"
 }
 class Billete {
-  constructor(v, c) {
-    this.valor = v;
+  constructor(value, c) {
+    this.valor = value;
     this.cantidad = c;
     this.img = new Image();
     this.img.src =imgBillete[this.valor];
