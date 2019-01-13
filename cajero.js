@@ -8,6 +8,7 @@ caja.push(new Billete(5, 40));
 var totalCaja = 0;
 var boton = document.getElementById('extraer');
 var resultado = document.getElementById('resultado');
+var state = document.getElementById('status');
 
 boton.addEventListener('click', entregarDinero);
 function entregarDinero() {
@@ -66,4 +67,5 @@ function contar() {
     totalCaja += (tot.valor * tot.cantidad);
   }
   console.log(totalCaja);
+  state.innerHTML = "Disponible: " + totalCaja;
 }
